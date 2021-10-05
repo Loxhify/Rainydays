@@ -1,2 +1,2 @@
 # Rainydays
-by Temirlan Shangaliyev
+
