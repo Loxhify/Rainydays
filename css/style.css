@@ -1,2 +1,65 @@
-body {background-color: antiquewhite;}
-h1 { color: rgb(124, 184, 204);}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+li,
+a,
+div.navbar {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: #0a3641;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav1 {
+  flex: 1;
+  text-align: left;
+  position: relative;
+  left: 200px;
+}
+
+nav2 {
+  flex: 1.5;
+  text-align: left;
+}
+
+nav3 {
+  flex: 3;
+  text-align: left;
+}
+ul {
+  list-style: none;
+}
+div.infobar {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  background-color: #0a3641;
+  font-size: small;
+}
+
+nav0 {
+  flex: 1;
+  text-align: right;
+}
+nav0 ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav0 ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+
+  font-size: small;
+}
